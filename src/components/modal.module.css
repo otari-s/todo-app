@@ -1,0 +1,24 @@
+.modalForm {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.formDiv {
+  width: 100%;
+}
+.formInput {
+  width: 80%;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px 0 0 5px;
+  padding: 0 5px;
+}
+.formBtn {
+  width: 20%;
+  height: 40px;
+  background-color: rgb(105, 63, 32);
+  color: white;
+  border-radius: 0 5px 5px 0;
+  border: none;
+}

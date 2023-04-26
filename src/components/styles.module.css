@@ -1,0 +1,22 @@
+.todoCard {
+  width: 33%;
+  min-height: 80vh;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.line {
+  height: 15px;
+  width: 2px;
+  border: 1px solid gray;
+}
+.todoSpan {
+  font-size: 20px;
+}
+.modalBtn {
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
