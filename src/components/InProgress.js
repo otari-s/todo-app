@@ -1,5 +1,5 @@
 import React from "react";
-import CardList from "./CardList";
+import { Card } from "./Card";
 import style from "./styles.module.css";
 import TodoTitle from "./TodoTitle";
 
@@ -9,7 +9,7 @@ function InProgress({ inProgress, setTodos, quantity }) {
       <TodoTitle quantity={quantity} title={"In Progress"} />
       {inProgress.map((item) => {
         return (
-          <CardList
+          <Card
             key={item.id}
             todo={item}
             setTodos={setTodos}
@@ -21,4 +21,4 @@ function InProgress({ inProgress, setTodos, quantity }) {
   );
 }
 
-export default InProgress;
+export { InProgress };

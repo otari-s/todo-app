@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import style from "./cardList.module.css";
+import style from "./card.module.css";
 import {
   MdDeleteForever,
   MdArrowCircleRight,
   MdArrowCircleLeft,
   MdFileDownloadDone,
 } from "react-icons/md";
-const CardList = ({ todo, setTodos, type }) => {
+function Card({ todo, setTodos, type }) {
   const [done, setDone] = useState(false);
   return (
     <div className={style.cardList}>
@@ -108,6 +108,6 @@ const CardList = ({ todo, setTodos, type }) => {
       </div>
     </div>
   );
-};
+}
 
-export default CardList;
+export { Card };

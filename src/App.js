@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import Backlog from "./components/Backlog";
-import Done from "./components/Done";
-import InProgress from "./components/InProgress";
+import { Backlog } from "./components/Backlog";
+import { Done } from "./components/Done";
+import { InProgress } from "./components/InProgress";
 
 function App() {
   // todo list setter

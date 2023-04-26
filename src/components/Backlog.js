@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CardList from "./CardList";
+import { Card } from "./Card";
 import Modal from "./Modal";
 import style from "./styles.module.css";
 import { MdAdd } from "react-icons/md";
@@ -13,12 +13,7 @@ function Backlog({ backlog, setTodos, quantity }) {
 
       {backlog.map((item) => {
         return (
-          <CardList
-            key={item.id}
-            todo={item}
-            setTodos={setTodos}
-            type="backlog"
-          />
+          <Card key={item.id} todo={item} setTodos={setTodos} type="backlog" />
         );
       })}
 
@@ -35,4 +30,4 @@ function Backlog({ backlog, setTodos, quantity }) {
   );
 }
 
-export default Backlog;
+export { Backlog };

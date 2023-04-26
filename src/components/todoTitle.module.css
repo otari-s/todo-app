@@ -14,3 +14,10 @@
 span {
   font-size: 25px;
 }
+.Backlog {
+  border-bottom: 2px solid brown;
+}
+
+.Done {
+  border-bottom: 2px solid rgb(77, 77, 9);
+}
